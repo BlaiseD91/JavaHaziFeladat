@@ -4,6 +4,8 @@ package osztalyok;
 /**
  *
  * @author Székely Balázs
+ * 
+ * 6. feladat - Harcos osztály megvalósítása
  */
 public class Harcos {
     
