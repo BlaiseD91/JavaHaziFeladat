@@ -27,6 +27,18 @@ public class Osztalyok {
         System.out.println(sz1);
         System.out.println(sz2);
         
+        //3. feladat megvalósításának ellenõrzése
+        System.out.println("\n3. feladat:");
+        
+        Hallgato h1 = new Hallgato("C66533");
+        Hallgato h2 = new Hallgato("P12K78", 2,12);
+        
+        h2.targyFelvesz(3);
+        
+        if(h1.vizsgazik()) System.out.println("A hallgató sikeresen vizsgázott!");
+        else System.out.println("A vizsga sikertelen volt");
+        if(h2.vizsgazik()) System.out.println("A hallgató sikeresen vizsgázott!");
+        else System.out.println("A vizsga sikertelen volt");
     }
     
 }

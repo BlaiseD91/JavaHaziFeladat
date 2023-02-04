@@ -22,6 +22,13 @@ public class Hallgato {
     public Hallgato(String azonosito) {
         this(azonosito, 1, 0);
     }
+
+    @Override
+    public String toString() {
+        return this.azonosito+" azonosítószámí hallgató évfolyama: "+this.evfolyam+" kreditszáma: "+this.kreditszam;
+    }
+    
+    
     
     public void targyFelvesz(int kreditertek){
         this.kreditszam += kreditertek;
