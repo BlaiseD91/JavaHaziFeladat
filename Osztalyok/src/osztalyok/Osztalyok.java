@@ -39,6 +39,26 @@ public class Osztalyok {
         else System.out.println("A vizsga sikertelen volt");
         if(h2.vizsgazik()) System.out.println("A hallgató sikeresen vizsgázott!");
         else System.out.println("A vizsga sikertelen volt");
+        
+        System.out.println(h1);
+        System.out.println(h2);
+        
+        //4. feladat megvalósításának ellenõrzése
+        System.out.println("\n4. feladat:");
+        
+        Torta t1 = new Torta();
+        Torta t2 = new Torta(3, true);
+        
+        if(t1.kremmelMegken()) System.out.println("A tortát megkented.");
+        else System.out.println("A kenés sikertelen.");
+        if(t1.kremmelMegken()) System.out.println("A tortát megkented.");
+        else System.out.println("A kenés sikertelen.");
+        
+        t2.ujEmelet();
+        
+        System.out.println(t1);
+        System.out.println(t2);
+        
     }
     
 }
