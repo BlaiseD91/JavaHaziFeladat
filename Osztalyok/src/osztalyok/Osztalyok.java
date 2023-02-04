@@ -59,6 +59,11 @@ public class Osztalyok {
         System.out.println(t1);
         System.out.println(t2);
         
+        //4. feladat megvalósításának ellenõrzése
+        System.out.println("\n5. feladat:");
+        
+        Ember szemely = new Ember("Székely", "Balázs", 1991);
+        System.out.println(szemely.hogyHivjak());
     }
     
 }
