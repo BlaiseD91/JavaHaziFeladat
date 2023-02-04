@@ -59,11 +59,27 @@ public class Osztalyok {
         System.out.println(t1);
         System.out.println(t2);
         
-        //4. feladat megvalósításának ellenõrzése
+        //5. feladat megvalósításának ellenõrzése
         System.out.println("\n5. feladat:");
         
         Ember szemely = new Ember("Székely", "Balázs", 1991);
         System.out.println(szemely.hogyHivjak());
+        
+        //6. feladat megvalósításának ellenõrzése
+        System.out.println("\n6. feladat:");
+    
+        Harcos harcos1 = new Harcos("BlaiseDamn", 250, 25);
+        Harcos harcos2 = new Harcos("Anubis", 150, 35);
+        
+        System.out.println(harcos1);
+        System.out.println(harcos2);
+        
+        boolean valakiVesztett = false;
+        while(!valakiVesztett){
+            valakiVesztett = harcos1.harcol(harcos2);
+        }
+        System.out.println(harcos1);
+        System.out.println(harcos2);
     }
     
 }
